@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ResponsiveTemplate</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="top">
+  <div class="myNavbar">
+    <a href="#home" class=" myButton"><b>BR</b> Architects</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="hideOnSmall" style="float: right;">
+      <a href="#projects" class="myButton">Projects</a>
+      <a href="#about" class="myButton">About</a>
+      <a href="#contact" class="myButton">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="myContainer content" style="max-width:1500px; letter-spacing:4px" id="home">
+  <img class="myImage" src="./images/architect.jpg" alt="Architecture" width="1500" height="800">
+  <div class="displayMiddle" align="center">
+    <h1><span class="myPadding myBlack" style="opacity:0.75;"><b>BR</b></span> <span class="hideOnSmall" style="color:#f1f1f1!important">Architects</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="content myPadding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="myContainer" id="projects">
+    <h3 class="heading3">Projects</h3>
+  </div>
+
+  <div class="rowPadding">
+    <div class="mySection">
+      <div class="myContainer">
+        <div class="displayTopLeft myBlack myPadding">Summer House</div>
+        <img src="./images/house5.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="mySection">
+      <div class="myContainer">
+        <div class="displayTopLeft myBlack myPadding">Brick House</div>
+        <img src="./images/house2.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="mySection">
+      <div class="myContainer">
+        <div class="displayTopLeft myBlack myPadding">Renovated</div>
+        <img src="./images/house3.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="mySection">
+      <div class="myContainer">
+        <div class="displayTopLeft myBlack myPadding">Barn House</div>
+        <img src="./images/house4.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+  <div class="rowPadding">
+    <div class="mySection">
+      <div class="myContainer">
+        <div class="displayTopLeft myBlack myPadding">Summer House</div>
+        <img src="./images/house2.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="mySection">
+      <div class="myContainer">
+        <div class="displayTopLeft myBlack myPadding">Brick House</div>
+        <img src="./images/house5.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="mySection">
+      <div class="myContainer">
+        <div class="displayTopLeft myBlack myPadding">Renovated</div>
+        <img src="./images/house4.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="mySection">
+      <div class="myContainer">
+        <div class="displayTopLeft myBlack myPadding">Barn House</div>
+        <img src="./images/house3.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="myContainer" id="about">
+    <h3 class="heading3">About</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+  </div>
+
+  <div class="rowPadding">
+    <div class="mySection">
+      <img src="./images/team2.jpg" alt="John" style="width:100%">
+      <h3>John Doe</h3>
+      <p class="myOpacity">CEO & Founder</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="myButton lightGray myBlock">Contact</button></p>
+    </div>
+    <div class="mySection">
+      <img src="./images/team1.jpg" alt="Jane" style="width:100%">
+      <h3>Jane Doe</h3>
+      <p class="myOpacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="myButton lightGray myBlock">Contact</button></p>
+    </div>
+    <div class="mySection">
+      <img src="./images/team3.jpg" alt="Mike" style="width:100%">
+      <h3>Mike Ross</h3>
+      <p class="myOpacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="myButton lightGray myBlock">Contact</button></p>
+    </div>
+    <div class="mySection">
+      <img src="./images/team4.jpg" alt="Dan" style="width:100%">
+      <h3>Dan Star</h3>
+      <p class="myOpacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="myButton lightGray myBlock">Contact</button></p>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="myContainer" id="contact">
+    <h3 class="heading3">Contact</h3>
+    <p>Lets get in touch and talk about your next project.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="myInput" type="text" placeholder="Name" required name="Name">
+      <input class="myInput" type="text" placeholder="Email" required name="Email">
+      <input class="myInput" type="text" placeholder="Subject" required name="Subject">
+      <input class="myInput" type="text" placeholder="Comment" required name="Comment">
+      <button class="myButton myBlack" type="submit" style="margin-top:16px!important;margin-bottom:16px!important">
+         SEND MESSAGE
+      </button>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="myBlack myPadding16" align="center">
+  <p>Powered by Eng.Entesar K. ElBanna</p>
+</footer>
+
+</body>
+</html>

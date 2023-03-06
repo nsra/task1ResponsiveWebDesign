@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 24px !important;
+    margin-top: 2% !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.top {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0 !important;
+}
+
+.myNavbar {
+    width: 100% !important;
+    overflow: hidden !important;
+    color: #000 !important;
+    background-color: #fff !important;
+    padding: 8px 16px !important;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+    letter-spacing: 4px !important
+}
+
+.myButton {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    cursor: pointer;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myContainer {
+    position: relative !important;
+}
+
+.myImage {
+    max-width: 100% !important;
+    height: auto !important
+}
+
+.myPadding {
+    padding: 8px 16px !important
+}
+
+.myBlack {
+    color: #fff !important;
+    background-color: #000 !important
+}
+
+.heading3 {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    border-bottom: 1px solid #ccc !important;
+    border-color: #f1f1f1 !important
+}
+
+footer {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+.displayMiddle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 16px !important;
+    font-size: 36px !important;
+    color: #fff !important
+}
+
+.myBlack {
+    color: #fff !important;
+    background-color: #000 !important
+}
+
+.rowPadding {
+    padding: 0 8px;
+}
+
+.mySection {
+    /* float: left; */
+    width: 100%;
+    margin-bottom: 16px !important;
+    padding-right: 2%;
+}
+
+.displayTopLeft {
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.lightGray {
+    color: #000 !important;
+    background-color: #f1f1f1 !important
+}
+
+.myBlock {
+    display: block;
+    width: 100%
+}
+
+.myOpacity {
+    opacity: 0.60
+}
+
+.myInput {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    border: 1px solid #ccc !important;
+    margin-top: 16px !important;
+    margin-bottom: 16px !important
+}
+
+@media screen and (min-width: 993px) {
+    .mySection {
+        width: 25%;
+    }
+
+    .rowPadding {
+        display: flex;
+        width: 100%
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width:992px){
+    .mySection {
+        width: 50%;
+    }
+
+    .rowPadding {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .hideOnSmall {
+        display: none !important;
+    }
+
+}
